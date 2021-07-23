@@ -7,7 +7,7 @@ export default class RekapPropsState extends Component {
         return (
             <div>
                 <h2>Rekap propsState makanan adalah: {this.props.makanan}</h2>
-                <button onClick={_ => this.props.gantiMakanan("Soto ayam")}>Ganti makanan</button>
+                <button onClick= {_ => this.props.gantiMakanan("Soto ayam")}>Ganti makanan</button>
             </div>
         )
     }

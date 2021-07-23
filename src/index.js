@@ -24,10 +24,13 @@ import ReactDOM from 'react-dom';
 // ===== BELAJAR PROPS DAN STATE =====
 // import PropsDanState from './PropsDanState'
 
-import RekapStateSederhana from './RekapPropsDanState';
-import {PropsSederhana} from './RekapPropsDanState';
-import {RekapPropsDanState}  from './RekapPropsDanState';
+// import RekapStateSederhana from './RekapPropsDanState';
+// import {PropsSederhana} from './RekapPropsDanState';
+// import {RekapPropsDanState}  from './RekapPropsDanState';
 
+
+// ===== BELAJAR MAP,FILTER,REDUCE =====
+import {MapFilterReduce} from './MapFilterReduce';
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
@@ -41,9 +44,12 @@ ReactDOM.render(
     
     {/*===== Belajar props dan state =====*/}
     {/* <PropsDanState /> */}
-    <RekapStateSederhana />
-    <PropsSederhana name="akbar angkasa" />
-    <RekapPropsDanState />
+    {/* <RekapStateSederhana /> */}
+    {/* <PropsSederhana name="akbar angkasa" /> */}
+    {/* <RekapPropsDanState /> */}
+
+    {/* ===== Belajar Map,Filter,Reduce */}
+    <MapFilterReduce />
   </React.StrictMode>,
   document.getElementById('root')
 );
